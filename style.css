@@ -106,12 +106,13 @@ h3 {
 }
 img {
     width: 100%;
-}
-.pictures {
-    text-align: center;
+    display: block;
+    margin: auto;
     text-indent: 0%;
 }
-
+#robotimage {
+    max-width: 400px;
+}
 aside {
     background-color: var(--cor0);
     border-radius: 7px;
